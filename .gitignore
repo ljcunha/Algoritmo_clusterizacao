@@ -1,0 +1,87 @@
+# ========================================
+# GITIGNORE PARA PROJETOS ANACONDA / PYTHON
+# ========================================
+
+# Ambientes virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+conda-env/
+.conda/
+*.conda
+
+# Arquivos do Anaconda
+*.anaconda_backup
+*.conda-build
+*.conda-meta
+*.condarc
+*.yaml
+
+# Diretórios do Jupyter
+.ipynb_checkpoints/
+.jupyter/
+*.nbconvert.ipynb
+*.nbconvert/
+
+# Cache e compilação
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log
+*.log
+logs/
+*.out
+*.err
+
+# Dados temporários e de saída
+data/
+datasets/
+output/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Arquivos de configuração locais
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# Arquivos de build e distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Arquivos de teste
+.coverage
+.tox/
+.nox/
+pytest_cache/
+
+# Requisitos locais
+requirements.txt
+Pipfile.lock
+environment.yml
+
+# Arquivos de backup e exportação de notebooks
+*.ipynb_checkpoints
+*.nbconvert.*
+*.bak
+
+# Cache do Python
+*.pyo
+*.pyd
+
+# Logs de kernel do Jupyter
+kernel-*.json
+
+# Arquivos ocultos do sistema operacional
+*.swp
+*.swo
