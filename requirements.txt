@@ -1,0 +1,17 @@
+# Núcleo do Jupyter
+jupyter
+notebook
+ipykernel
+
+# Pacotes essenciais para análise de dados
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+# Extensões úteis para VSCode
+jupyterlab
+jupyter_contrib_nbextensions
+nbconvert
+ipywidgets
