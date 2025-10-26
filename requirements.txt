@@ -15,3 +15,6 @@ jupyterlab
 jupyter_contrib_nbextensions
 nbconvert
 ipywidgets
+
+# Kaggle API para download de datasets
+kagglehub
